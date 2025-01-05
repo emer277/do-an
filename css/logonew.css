@@ -1,0 +1,84 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+div#floor1 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+
+  height: 90px;
+}
+
+#logoht {
+  padding: 0px;
+  margin-left: 0px;
+}
+#logoht > a {
+  margin: 0px;
+  padding: 0px;
+}
+
+#timkiem {
+  margin: 30px 300px;
+}
+#timkiem button {
+  height: 32px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#timkiem input[type="text"] {
+  width: 500px;
+  height: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+#timkiem > form {
+  padding: 10px;
+  margin: 0px;
+}
+
+#dkdn {
+  margin-top: 40px;
+}
+#dkdn > a {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+#dkdn > a:hover {
+  color: red;
+}
+
+#container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #121212;
+  background: linear-gradient(
+    135deg,
+    #121212 25%,
+    #1a1a1a 25%,
+    #1a1a1a 50%,
+    #121212 50%,
+    #121212 75%,
+    #1a1a1a 75%,
+    #1a1a1a
+  );
+  background-size: 40px 40px;
+
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}

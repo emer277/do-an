@@ -1,0 +1,368 @@
+* {
+  justify-content: center;
+}
+#mainsection {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* #mainsection {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+} */
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+
+#floor2 {
+  display: flex;
+}
+header {
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+div#danhmucsanpham {
+  margin-top: 31px;
+  margin-left: 0px;
+
+  position: relative;
+  cursor: pointer;
+  background-color: #9a9595;
+  width: 120%;
+  height: 19px;
+}
+#danhmucsanpham i {
+  margin-left: 100px;
+}
+#danhmucsanpham:hover {
+  color: red;
+  background-color: white;
+}
+.itemsub a {
+  text-decoration: none;
+  color: red;
+}
+.itemsub {
+  list-style: none;
+  padding-top: 10px;
+  position: relative;
+}
+.item a:hover {
+  border-bottom: #00ffff 2px solid;
+}
+.itemsub i {
+  float: right;
+}
+.itemsub a:hover {
+  color: #00ffff;
+  border-bottom: #00ffff 2px solid;
+}
+
+.itemsub:hover .dropdown_menu {
+  display: block;
+}
+.dropdown_menu2 a:hover {
+  border-bottom: #00ffff 2px solid;
+}
+.dropdown_menu {
+  position: absolute;
+  justify-items: center;
+  right: 0;
+  transform: translate(900px, -132px);
+  background-color: #9a9595;
+  display: none;
+  width: 900px;
+  height: 161px;
+  z-index: 100;
+  margin-right: 43px;
+}
+.item1:hover {
+  border-bottom: #00ffff;
+}
+
+.dropdown_menu2 {
+  display: flex;
+  box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+  -webkit-box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+  -moz-box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+}
+.dropdown_menu2 div {
+  padding-left: 30px;
+}
+#main1 {
+  position: absolute;
+  display: list-item;
+  display: none;
+  list-style: none;
+  background-color: #9a9595;
+  z-index: 10;
+  margin-left: 100px;
+  box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+  -webkit-box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+  -moz-box-shadow: 0px 0px 43px 6px rgba(226, 140, 140, 0.74);
+}
+#main1_1 {
+  padding: 0px;
+  z-index: 200;
+  margin: 0px;
+}
+#main1_1 li.item {
+  padding-top: 10px;
+}
+.item1 {
+  list-style: none;
+}
+div#danhmucsanpham:hover > div#main1 {
+  display: block;
+}
+#floor2_2 > div > ul {
+  display: flex;
+  margin-top: 20px;
+}
+#floor2_2 > div > ul > li {
+  display: flex;
+  padding-left: 100px;
+  margin-left: 10px;
+  margin-top: -19px;
+}
+#floor2_2 {
+  margin-top: 31px;
+  margin-left: 0px;
+  background-color: #9a9595;
+  height: 3.3%;
+  align-items: center;
+  width: 100%;
+}
+#floor2_1 {
+  margin-left: 0px;
+}
+#floor2 {
+  width: 100%;
+  height: 580px;
+
+  background: radial-gradient(
+        circle farthest-side at 0% 50%,
+        #282828 23.5%,
+        rgba(255, 170, 0, 0) 0
+      )
+      21px 30px,
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        #2c3539 24%,
+        rgba(240, 166, 17, 0) 0
+      )
+      19px 30px,
+    linear-gradient(
+        #282828 14%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 85%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(
+        150deg,
+        #282828 24%,
+        #2c3539 0,
+        #2c3539 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #2c3539 0,
+        #2c3539 76%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(
+        30deg,
+        #282828 24%,
+        #2c3539 0,
+        #2c3539 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #2c3539 0,
+        #2c3539 76%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
+      #282828;
+  background-size: 40px 60px;
+}
+a {
+  color: white;
+}
+div {
+  color: white;
+}
+
+.item a {
+  text-decoration: none;
+  color: red;
+}
+.item {
+  list-style: none;
+}
+
+#floor2_3 {
+  top: 150px;
+  float: left;
+  position: absolute;
+  left: 270px;
+  bottom: 110px;
+}
+.floor2_3_1 picture img {
+  width: 900px;
+}
+
+#floor2_4 {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 153px;
+}
+.floor2_4_1 picture img {
+  width: 300px;
+}
+
+#floor2_5 {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 306px;
+}
+
+#floor2_6 {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 459px;
+}
+.floor2_3_1 {
+  box-shadow: 0 1px 25px rgba(226, 140, 140, 0.74);
+}
+
+.floor2_4_1 {
+  box-shadow: 0 1px 25px rgba(226, 140, 140, 0.74);
+  display: inline-block;
+}
+
+.floor2_4_1 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.floor2_4_1 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.floor2_4_1::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300px;
+  height: 20px;
+  background: rgba(96, 93, 93, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transform: rotate(-45deg);
+  animation: slideShadow 2s infinite;
+}
+
+@keyframes slideShadow {
+  0% {
+    opacity: 0;
+    top: -100%;
+    left: -100%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 100%;
+    left: 100%;
+  }
+}
+
+#timkiem button {
+  background-color: #eec900;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+#timkiem button {
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 17px;
+  color: ghostwhite;
+}
+#timkiem button i {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+}
+#timkiem button:hover i {
+  color: green;
+}
+#timkiem button::before,
+button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#timkiem button::before {
+  content: "";
+  background: rgb(6, 209, 236);
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+#timkiem button:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+#timkiem input {
+  background: none;
+  border: none;
+  color: white;
+}
+#timkiem input:focus {
+  outline: none;
+  color: white;
+}
+#timkiem {
+  background-color: rgb(52, 51, 51);
+  height: 50px;
+}
+#timkiem button {
+  margin-top: 5px;
+  margin-right: 5px;
+}

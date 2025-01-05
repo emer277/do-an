@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#maindn {
+  padding: 0px;
+  margin: 0px;
+  justify-items: center;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  justify-content: center;
+  justify-items: center;
+}
+#contentdn {
+  justify-items: center;
+}
+#fldn {
+  display: flex;
+  justify-content: center;
+}
+#fldn a {
+  color: white;
+  margin: 0 10px;
+}
+#fldn h4.ngancach {
+  border-left: 2px solid rgb(0, 0, 0);
+}
+#dangnhapformdn {
+  height: 300px;
+  background-color: #343a40;
+  width: 430px;
+  margin: 10px;
+  padding: 20px;
+}
+#login div {
+  margin: 10px 10px;
+}
+.fllogin5 {
+  display: flex;
+}
+.signin {
+  height: 40px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: #ffd700;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.req_pass {
+  color: white;
+}
+.req_pass a {
+  color: red;
+}
+.fllogin4 {
+  color: white;
+}
+.fllogin4 a {
+  color: red;
+}
+.fllogin2 input {
+  height: 30px;
+  margin: 10px;
+  width: 380px;
+  font-style: italic;
+}
+.fllogin3 input {
+  height: 30px;
+  margin: 10px;
+  width: 380px;
+  font-style: italic;
+}
+.fllogin4 {
+  padding: 10px;
+}
+.fllogin2 input:focus {
+  background-color: #343a40;
+  color: white;
+  padding: 0px 5px;
+}
+.fllogin3 input:focus {
+  background-color: #343a40;
+  color: white;
+  padding: 0px 5px;
+}
+#fldn a:hover {
+  color: red;
+}
+.req_pass a:hover {
+  color: rgb(4, 204, 254);
+}
+
+.fllogin5-1 button {
+  background-color: #eec900;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+.fllogin5-1 button {
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 17px;
+  color: ghostwhite;
+}
+.fllogin5-1 button span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+}
+.fllogin5-1 button:hover span {
+  color: green;
+}
+.fllogin5-1 button::before,
+button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.fllogin5-1 button::before {
+  content: "";
+  background: rgb(6, 209, 236);
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.fllogin5-1 button:hover::before {
+  transform: translate3d(100%, 0, 0);
+}

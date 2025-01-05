@@ -1,0 +1,233 @@
+.anhtrungbay img {
+  height: 252px;
+  width: 276px;
+}
+.proloop--price {
+  margin-top: auto;
+}
+.proloop--price {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fcfcfc;
+}
+.product-loop {
+  padding: 0px 5px;
+  margin: 0;
+}
+.quickview-product {
+  color: white;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.product-loop {
+  display: flex;
+}
+.owl-item {
+  background-color: black;
+  padding: 0 0px;
+  margin: 0px px;
+  border: 1px yellow solid;
+  background-size: 100px 100px;
+}
+.price-box {
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  padding-right: 5px;
+}
+.pro-sale {
+  background: #ff0000;
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding: 2px 5px;
+  min-width: 38px;
+  text-align: center;
+  align-self: center;
+  -ms-align-self: center;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.actions-icon {
+  height: 32px;
+  line-height: 30px;
+}
+.btnico {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: #263b96;
+  border-radius: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btnico svg {
+  width: 16px;
+  height: 31px;
+  display: block;
+  margin: auto;
+  fill: #ffffff;
+}
+.actions-wrapqty {
+  border: 1px solid #e9eaec;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 10px;
+  max-width: 105px;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.qty-btn {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  color: var(--shop-color-text);
+  opacity: 0.75;
+  border: 0;
+  outline: none;
+  padding: 0 5px;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+.qty-btn svg {
+  width: 13px;
+  height: 100%;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.proloop-value {
+  width: calc(100% - 60px);
+  height: 30px;
+  padding: 0;
+  float: left;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  background: #fff;
+  color: #9c9c9c;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.qty-btn {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  color: var(--shop-color-text);
+  opacity: 0.75;
+  border: 0;
+  outline: none;
+  padding: 0 5px;
+}
+.owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.owl-stage {
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+  margin-top: 3px;
+}
+.owl-stage {
+  margin: 5px 0;
+  gap: 18px;
+  display: flex;
+  display: -ms-flex;
+}
+.owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+}
+.tieumuc {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+h2 {
+  padding-left: 30px;
+  padding-right: 15px;
+  border: 0;
+  position: relative;
+}
+.container-fluid {
+  max-width: 1400px;
+}
+.wrapper-content {
+  background: red;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+.box-listprod {
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  -webkit-flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px 15px;
+}
+span {
+  color: white;
+}

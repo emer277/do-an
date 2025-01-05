@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/sanpham.css" rel="stylesheet" />
+  
+
+  </head>
+  <body>
+    <div></div>
+    <section>
+      <div>
+        <div>
+          <div>
+            <div class="boxsection">
+              <div class="mainsection">
+                <div class="flsection">
+                  <div id="containersanpham">
+                    <img class="slider" src="Images/1.webp" />
+                    <img class="slider" src="Images/2.webp" />
+                    <img class="slider" src="Images/3.jpg" />
+                    <img class="slider" src="Images/4.jpg" />
+                    <img class="slider" src="Images/5.webp" />
+
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div id="control">
+                    <img src="Images/1.webp" onClick="hienthi(0)" />
+                    <img src="Images/2.webp" onClick="hienthi(1)" />
+                    <img src="Images/3.jpg" onClick="hienthi(2)" />
+                    <img src="Images/4.jpg" onClick="hienthi(3)" />
+                    <img src="Images/5.webp" onClick="hienthi(4)" />
+                  </div>
+                </div>
+                <div class="flsection1">
+                  <div class="boxtensanpham">
+                    <div class="tensanpham">
+                      <h1>
+                        PC FASTER GAMING 10400F - RTX 3050 6GB ( ALL NEW- Bảo
+                        hành 36 Tháng)- 63 slots- 23 HN- 40 HCM
+                      </h1>
+
+                      <span class="tinhtrang"
+                        >Tình trạng:
+
+                        <strong>Còn hàng</strong>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="flsection1-1">
+                    <div class="flsection1-1-1-left">
+                      <div class="inflsection1-1-1-left">
+                        <div class="box-gia" id="box-preview">
+                          <span class="pro-title">Giá: </span
+                          ><span class="pro-price">9,990,000₫</span
+                          ><del>11,990,000₫</del
+                          ><span class="pro-percent">-17%</span>
+                        </div>
+                        <div class="box-form">
+                          <form
+                            id="add-item-form"
+                            action="/cart/add"
+                            method="post"
+                            class="variants clearfix"
+                          >
+                            <div class="inbox-select">
+                              <div class="selector1">
+                                <label for="product-select-option-0">RAM</label
+                                ><select
+                                  class="single-option-selector"
+                                  data-option="option1"
+                                  id="product-select-option-0"
+                                >
+                                  <option value="Ram 16GB">Ram 16GB</option>
+                                  <option value="Ram 32GB">Ram 32GB</option>
+                                </select>
+                              </div>
+                              <div class="selector1">
+                                <label for="product-select-option-1">SSD</label
+                                ><select
+                                  class="single-option-selector"
+                                  data-option="option2"
+                                  id="product-select-option-1"
+                                >
+                                  <option value="SSD 256GB">SSD 256GB</option>
+                                  <option value="SSD 500GB">SSD 500GB</option>
+                                </select>
+                              </div>
+                              <select
+                                id="product-select"
+                                name="id"
+                                style="display: none"
+                              >
+                                <option value="1128970177">
+                                  Ram 16GB / SSD 256GB - 9,990,000₫
+                                </option>
+
+                                <option value="1128970178">
+                                  Ram 16GB / SSD 500GB - 10,680,000₫
+                                </option>
+
+                                <option value="1128970179">
+                                  Ram 32GB / SSD 256GB - 10,990,000₫
+                                </option>
+
+                                <option value="1128970180">
+                                  Ram 32GB / SSD 500GB - 11,680,000₫
+                                </option>
+                              </select>
+                            </div>
+                            <div class="inbox-clearfix">
+                              <div
+                                id="variant-swatch-0"
+                                class="clearfix1"
+                                data-option="option1"
+                                data-option-index="0">
+                                <div class="title-swap header">RAM:</div>
+                                <div class="select-swap">
+                                  <div
+                                    data-value="Ram 16GB"
+                                    class="n-sd swatch-element1"
+                                  >
+                                    <input
+                                      class="variant-0"
+                                      id="swatch-0-ram-16gb"
+                                      type="radio"
+                                      name="option1"
+                                      value="Ram 16GB"
+                                      data-vhandle="ram-16gb"
+                                      checked=""
+                                    />
+
+                                    <label for="swatch-0-ram-16gb" class="sd">
+                                      <span>Ram 16GB</span>
+                                    </label>
+                                  </div>
+
+                                  <div
+                                    data-value="Ram 32GB"
+                                    class="n-sd swatch-element2"
+                                  >
+                                    <input
+                                      class="variant-0"
+                                      id="swatch-0-ram-32gb"
+                                      type="radio"
+                                      name="option1"
+                                      value="Ram 32GB"
+                                      data-vhandle="ram-32gb"
+                                    />
+
+                                    <label for="swatch-0-ram-32gb">
+                                      <span>Ram 32GB</span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div
+                                id="variant-swatch-1"
+                                class="clearfix1"
+                                data-option="option2"
+                                data-option-index="1"
+                              >
+                                <div class="title-swap header">SSD:</div>
+                                <div class="select-swap">
+                                  <div
+                                    data-value="SSD 256GB"
+                                    class="n-sd swatch-element1"
+                                  >
+                                    <input
+                                      class="variant-1"
+                                      id="swatch-1-ssd-256gb"
+                                      type="radio"
+                                      name="option2"
+                                      value="SSD 256GB"
+                                      data-vhandle="ssd-256gb"
+                                      checked=""
+                                    />
+
+                                    <label for="swatch-1-ssd-256gb" class="sd">
+                                      <span>SSD 256GB</span>
+                                    </label>
+                                  </div>
+
+                                  <div
+                                    data-value="SSD 500GB"
+                                    class="n-sd swatch-element2"
+                                  >
+                                    <input
+                                      class="variant-1"
+                                      id="swatch-1-ssd-500gb"
+                                      type="radio"
+                                      name="option2"
+                                      value="SSD 500GB"
+                                      data-vhandle="ssd-500gb"
+                                    />
+
+                                    <label for="swatch-1-ssd-500gb">
+                                      <span>SSD 500GB</span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div class="product-actions">
+                          <div
+                            class="select-actions d-none d-lg-block clearfix"
+                          >
+                            <div class="quantity-area">
+                              <div class="quantity-title">Số lượng:</div>
+                              <button
+                                type="button"
+                                onclick="handleMinus()"
+                                class="qty-btn"
+                              >
+                              <i class="fa-solid fa-minus"></i>
+                              </button>
+                              <input
+                                type="text"
+                                id="quantity"
+                                name="quantity"
+                                value="1"
+                                min="1"
+                                class="quantity_input"
+                              />
+                              <button
+                                type="button"
+                                onclick="handlePlus()"
+                                class="qty-btn"
+                              >
+                              <i class="fa-solid fa-plus"></i>
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="addcart-area">
+                              <button
+                                type="button"
+                                id="add-to-cart"
+                                class="add-to-cartProduct button dark btn-addtocart addtocart-modal"
+                                name="add"
+                              >
+                                <span>Thêm vào giỏ</span>
+                              </button>
+
+                              <button
+                                type="button"
+                                id="buy-now"
+                                class="button dark btn-buynow btnred addtocart-modal"
+                                name="add"
+                              >
+                                Mua ngay
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-toshare">
+                          <span>Chia sẻ: </span>
+                          <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            class="share-facebook"
+                          >
+                          <i class="fa-brands fa-facebook"></i>
+                            <span class="ico-tooltip">Facebook</span>
+                          </a>
+                          <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="messenger"
+                            class="share-messenger"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 28 28"
+                            >
+                              <g fill="none" fill-rule="evenodd">
+                                <g>
+                                  <g>
+                                    <g>
+                                      <g>
+                                        <g>
+                                          <g
+                                            transform="translate(-293.000000, -708.000000) translate(180.000000, 144.000000) translate(16.000000, 16.000000) translate(0.000000, 548.000000) translate(61.000000, 0.000000) translate(36.000000, 0.000000)"
+                                          >
+                                            <circle
+                                              cx="14"
+                                              cy="14"
+                                              r="14"
+                                              fill="#0084FF"
+                                            ></circle>
+                                            <path
+                                              fill="#FFF"
+                                              d="M14.848 15.928l-1.771-1.9-3.457 1.9 3.802-4.061 1.815 1.9 3.414-1.9-3.803 4.061zM14.157 7.2c-3.842 0-6.957 2.902-6.957 6.481 0 2.04 1.012 3.86 2.593 5.048V21.2l2.368-1.308c.632.176 1.302.271 1.996.271 3.842 0 6.957-2.902 6.957-6.482S17.999 7.2 14.157 7.2z"
+                                            ></path>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </svg>
+                            <span class="ico-tooltip">Messenger</span>
+                          </a>
+                          <a
+                          href="https://x.com/?mx=2"
+                            target="_blank"
+                            class="share-twitter"
+                          >
+                          <i class="fa-brands fa-square-x-twitter"></i>
+                            <span class="ico-tooltip">Twitter</span>
+                          </a>
+                          <a
+                            href="https://www.pinterest.com/"
+                            target="_blank"
+                            class="share-pinterest"
+                          >
+                          <i class="fa-brands fa-pinterest"></i>
+                            <span class="ico-tooltip">Pinterest</span>
+                          </a>
+                          <a
+                          
+                            class="share-link"
+                            onclick="copyLink()"
+                          >
+                          <i class="fa-solid fa-link"></i>
+                            <span class="ico-tooltip">Sao chép url</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flsection1-1-2-right">
+                      <div class="inflsection1-1-2-right">
+                        <div class="in1-1-2-rightpart1">
+                          <div
+                            class="littleright">
+                            <div class="littleright1-1">
+                              <span>Chính sách bán hàng</span>
+                            </div>
+                            <div class="bigitemright">
+                              <div class="littlerightitem">
+                                <span>
+                                  <img
+                                    class="ls-is-cached lazyloaded"
+                                    data-src="//theme.hstatic.net/1000288298/1001020793/14/product_deliverly_1_ico.png?v=524"
+                                    src="Images/hoso.webp"
+                                    alt="Cam kết 100% chính hãng"
+                                  />
+                                </span>
+                                Cam kết 100% chính hãng
+                              </div>
+
+                              <div class="littlerightitem">
+                                <span>
+                                  <img
+                                    class="ls-is-cached lazyloaded"
+                                    data-src="//theme.hstatic.net/1000288298/1001020793/14/product_deliverly_3_ico.png?v=524"
+                                    src="Images/phone.webp"
+                                    alt="Hỗ trợ 24/7"
+                                  />
+                                </span>
+                                Hỗ trợ 24/7
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="littleright">
+                            <div class="littleright1-1">
+                              <span>Thông tin thêm</span>
+                            </div>
+                            <div class="bigitemright">
+                              <div class="littlerightitem">
+                                <span>
+                                  <img
+                                    class="ls-is-cached lazyloaded"
+                                    data-src="//theme.hstatic.net/1000288298/1001020793/14/product_deliverly_4_ico.png?v=524"
+                                    src="Images/khien.webp"
+                                    alt="Hoàn tiền111%nếu hàng giả"
+                                  />
+                                </span>
+                                Hoàn tiền 111% nếu hàng giả
+                              </div>
+
+                              <div class="littlerightitem">
+                                <span>
+                                  <img
+                                    class="ls-is-cached lazyloaded"
+                                    data-src="//theme.hstatic.net/1000288298/1001020793/14/product_deliverly_5_ico.png?v=524"
+                                    src="Images/likeicon.webp"
+                                    alt="Mở hộpkiểm tranhận hàng"
+                                  />
+                                </span>
+                                Mở hộp kiểm tra nhận hàng
+                              </div>
+
+                              <div class="littlerightitem">
+                                <span>
+                                  <img
+                                    class="ls-is-cached lazyloaded"
+                                    data-src="//theme.hstatic.net/1000288298/1001020793/14/product_deliverly_6_ico.png?v=524"
+                                    src="Images/arrow.webp"
+                                    alt="Đổi trả trong7 ngày"
+                                  />
+                                </span>
+                                Đổi trả trong 7 ngày
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-banner">
+                          <a href="/collections/all">
+                            <img
+                              src="Images/anhgiamgia.webp"
+                              alt="product banner"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+   <script>
+    let amountElement = document.getElementById("quantity");
+let quantity = parseInt(amountElement.value);
+
+let render = (quantity) => {
+  amountElement.value = quantity;
+};
+
+let handlePlus = () => {
+  quantity++;
+  render(quantity);
+};
+let handleMinus = () => {
+  if (quantity > 1) {
+    quantity--;
+    render(quantity);
+  }
+};
+amountElement.addEventListener("input", () => {
+  quantity = parseInt(amountElement.value);
+  if (isNaN(quantity) || quantity <script 1) {
+    quantity = 1;
+  }
+  render(quantity);
+});
+   </script>
+  </body>
+  <script src="js/sanpham.js"></script>
+  <script src="js/"></script>
+</html>

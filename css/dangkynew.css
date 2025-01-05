@@ -1,0 +1,137 @@
+#contentdk {
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  top: 150px;
+  left: 530px;
+}
+#dangky {
+  justify-items: center;
+  border: 2px solid rgb(74, 165, 161);
+  width: 440px;
+  background-color: #343a40;
+}
+#fldn {
+  display: flex;
+}
+.capcha {
+  color: white;
+  margin-left: 30px;
+}
+.capcha a {
+  color: red;
+}
+#fldn a {
+  color: white;
+  margin: 0 10px;
+}
+#fldn a:hover {
+  color: red;
+}
+#fldn h4.ngancach {
+  border-left: 2px solid rgb(255, 255, 255);
+}
+#dangky form div {
+  padding: 10px;
+  justify-items: center;
+}
+.stypefromdn input {
+  width: 350px;
+  font-style: italic;
+}
+.stypefromdn {
+  text-align: center;
+}
+.stypefromdn input {
+  height: 20px;
+}
+.stypefromdn input:focus {
+  background-color: #343a40;
+  color: rgb(255, 255, 255);
+}
+#fldkend {
+  display: flex;
+  color: white;
+}
+.dangky-submit {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  top: 0;
+  background-color: yellow;
+}
+.dangky-submit:hover {
+  background-color: rgb(182, 25, 230);
+  transition: with 0.5s linear;
+}
+#fldkend div.fldkend2 a {
+  color: white;
+  text-decoration: none;
+}
+.matkhau {
+  text-align: center;
+}
+.matkhau input {
+  font-style: italic;
+}
+.sex {
+  margin-left: 25px;
+  color: white;
+}
+.fldkend1 {
+  margin: 10px;
+}
+.fldkend1 a {
+  color: red;
+}
+.fldkend2 {
+  margin-left: 15px;
+}
+.fldkend1 a:hover {
+  color: rgb(4, 204, 254);
+}
+
+.fldkend2 button {
+  background-color: #eec900;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+.fldkend2 button {
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 17px;
+  color: ghostwhite;
+}
+.fldkend2 button span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+}
+.fldkend2 button:hover span {
+  color: green;
+}
+.fldkend2 button::before,
+button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.fldkend2 button::before {
+  content: "";
+  background: rgb(6, 209, 236);
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.fldkend2 button:hover::before {
+  transform: translate3d(100%, 0, 0);
+}

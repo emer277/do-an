@@ -1,0 +1,83 @@
+.mot {
+  display: flex;
+  transform: scale(0.8);
+  background-color: #e10c00;
+  width: 1500px;
+}
+#nav {
+  clear: both;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+
+  height: 100vh;
+  margin: 0;
+}
+
+.khungsanpham {
+  transform: scale(0.7);
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.khungsanpham img {
+  width: 100%;
+  height: auto;
+}
+
+.khungsanpham .sanpham {
+  padding: 16px;
+}
+
+.khungsanpham .tensanpham {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.khungsanpham .giamoi {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e10c00;
+}
+
+.khungsanpham .giacu {
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.khungsanpham .giagiam {
+  background-color: #ff4747;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.khungsanpham .gio {
+  margin-top: 16px;
+  padding: 10px;
+  background-color: #0046be;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.khungsanpham .gio:hover {
+  background-color: #003399;
+}
